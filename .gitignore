@@ -4,13 +4,14 @@ __pycache__/
 *$py.class
 
 # Virtual environments
+rsna/
 rsna/Lib/
 rsna/Scripts/
 rsna/Include
 rsna/pyvenv.cfg
 
 # PyTorch / TensorFlow / model files
-*.pth
+app/*.pth
 *.h5
 
 # OS files
