@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+</head>
+<body>
+    <h2>Prediction Result</h2>
+
+    {% if error %}
+        <p style="color:red;">Error: {{ error }}</p>
+    {% else %}
+        <p><strong>Diagnosis:</strong> {{ prediction }}</p>
+    {% endif %}
+
+    <br>
+    <a href="/">Try another image</a>
+</body>
+</html>
