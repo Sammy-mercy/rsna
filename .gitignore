@@ -6,23 +6,12 @@ __pycache__/
 # Virtual environments
 rsna/Lib/
 rsna/Scripts/
-venv/
-.env
+rsna/Include
+rsna/pyvenv.cfg
 
 # PyTorch / TensorFlow / model files
-*.pt
 *.pth
 *.h5
-*.ckpt
-
-# Jupyter notebooks checkpoints
-.ipynb_checkpoints
-
-# VS Code
-.vscode/
-
-# Logs
-*.log
 
 # OS files
 .DS_Store
